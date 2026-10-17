@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+backend.hcl
+crash.log
+# keep the lock file committed
+!.terraform.lock.hcl
+
+# Misc
+.env
+*.pem
+*.key
+id_rsa*
+__pycache__/
+.vscode/
